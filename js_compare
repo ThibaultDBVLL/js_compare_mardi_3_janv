@@ -1,0 +1,16 @@
+// valeurs des variables à définir
+
+var1 =
+var2 =
+
+function compare(var1, var2) {
+console.log(var1.typeof);
+console.log(var2.typeof);
+
+if (typeof var1 === typeof var2){
+	console.log("le type des deux variables est identique");
+}
+else if (typeof var1 !== typeof var2){
+	console.log("le type des deux variables est différent");
+}
+}
